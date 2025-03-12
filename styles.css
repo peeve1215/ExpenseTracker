@@ -68,6 +68,17 @@ background-color: #2980b9;
 color: white;
 }
 
+.delete-btn{
+    width: 4rem;
+    background-color: red;
+}
+
+.delete-btn:hover{
+    background-color: red;
+    opacity: 20%;
+}
+
+
 /* Total Spending */
 #totalAmount {
 font-weight: bold;

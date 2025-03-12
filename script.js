@@ -54,7 +54,7 @@ function addExpenseToTable(expense) {
         <td>₱${expense.amount.toFixed(2)}</td>
         <td>${expense.category}</td>
         <td>${expense.date}</td>
-        <td><button class="delete-btn" data-id="${expense.id}">❌</button></td>
+        <td><button class="delete-btn" data-id="${expense.id}">X</button></td>
     `;
     expenseTable.appendChild(row);
 }
